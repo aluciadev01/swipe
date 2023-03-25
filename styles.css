@@ -385,7 +385,6 @@ main {
 .integrations-section {
   width: 100%;
   color: var(--text-light);
-  padding: var(--spacing-lg) 0;
 }
 
 .integrations-section .primary-button {
@@ -420,4 +419,21 @@ main {
 #terminal-code {
   max-width: 470px;
   border-radius: 20px;
+}
+
+/*WHY SWIPE SECTION STYLES*/
+.why-swipe-section .card-container {
+  display: flex;
+  margin: var(--spacing-lg) 0;
+}
+
+.why-swipe-section .card-container .card {
+  width: 25%;
+  padding: 0 var(--spacing-sm) 0 0;
+  margin: 0 var(--spacing-md) 0 0;
+  box-sizing: border-box;
+}
+
+.why-swipe-section .secondary-text {
+  color: var(--text-dark);
 }
